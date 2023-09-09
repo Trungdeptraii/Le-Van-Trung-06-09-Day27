@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+.bill{
+    display: none;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+.cart, .bill{
+    width: 100%;
+}
+.quantity{
+    padding-left: 20px;
+    padding: 5px 0;
+}
+.btn-add{
+    margin: 5px 0px;
+    width: 100%;
+    padding: 5px 0;
+}
+.field-btn{
+    width: 100px;
+}
+td{
+    text-align: center;
+}
+h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.btn-delete{
+    margin: 5px 0;
+    width: 100%;
+}
+.div{
+    margin-top: 10px;
+    display: none;
+}
+.btn-update-cart, .btn-delete-cart{
+    padding: 10px 5px;
+}

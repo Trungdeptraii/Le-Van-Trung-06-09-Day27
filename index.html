@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <table class="cart" cellpadding="0px" cellspacing="0px" border="1px">
+            <tr class="des">
+                <th>STT</th>
+                <th>Tên Sản Phẩm</th>
+                <th>Giá</th>
+                <th>Thêm vào giỏ</th>
+            </tr>
+            <tr class="product">
+                <td class="numerical-order">1</td>
+                <td class="name-product">Sản Phẩm 1</td>
+                <td class="price">1000</td>
+                <td class="field-btn">
+                    <div class="add">
+                        <input type="number" value="1" class="quantity">
+                    </div>
+                    <button class="btn-add">Thêm vào giỏ</button>
+                </td>
+            </tr>
+            <tr class="product">
+                <td class="numerical-order">2</td>
+                <td class="name-product">Sản Phẩm 2</td>
+                <td class="price">2000</td>
+                <td class="field-btn">
+                    <div class="add">
+                        <input type="number" value="1" class="quantity">
+                    </div>
+                    <button class="btn-add">Thêm vào giỏ</button>
+                </td>
+            </tr>
+            <tr class="product">
+                <td class="numerical-order">3</td>
+                <td class="name-product">Sản Phẩm 3</td>
+                <td class="price">3000</td>
+                <td class="field-btn">
+                    <div class="add">
+                        <input type="number" value="1" class="quantity">
+                    </div>
+                    <button class="btn-add">Thêm vào giỏ</button>
+                </td>
+            </tr>
+        </table>
+        <h3>GIỎ HÀNG</h3>
+        <div class="content">
+            <span class="note">Không có sản phẩm</span>
+            <table class="bill" border="1px" cellpadding = '0' cellspacing = 0 >
+                <thead class="bill-header">
+                    <tr>
+                        <th>STT</th>
+                        <th>Tên Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                        <th>Xóa</th>
+                    </tr>
+                </thead>
+                <tbody class="bill-content"></tbody>
+                <tfoot class="bill-foot"></tfoot>
+            </table>
+            <div class="div">
+                <button class="btn-update-cart">Cập nhật giỏ hàng</button>
+                <button class="btn-delete-cart">Xóa giỏ hàng</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+</html>
